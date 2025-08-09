@@ -26,3 +26,5 @@ Designed for **critical thinking, debate prep, empathy‑building, and bias awar
 ## Built With
 - HTML5, CSS3, Poppins font, magenta theme
 - Vanilla JavaScript (ES6+)
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
