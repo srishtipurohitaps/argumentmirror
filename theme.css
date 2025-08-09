@@ -1,0 +1,51 @@
+/* Default Magenta Theme */
+:root {
+    --primary: #e91e63;
+    --primary-dark: #c2185b;
+    --bg-light: #fff0f5;
+    --text-dark: #2c2c2c;
+    --card-bg: #ffffff;
+    --shadow: 0 2px 10px rgba(0,0,0,0.05);
+    --transition: all 0.2s ease;
+    --font-main: 'Poppins', sans-serif;
+}
+
+/* Optional alternate themes */
+
+/* Blue Theme */
+/*
+:root {
+    --primary: #2196f3;
+    --primary-dark: #1565c0;
+    --bg-light: #f0f6ff;
+    --text-dark: #1a1a1a;
+    --card-bg: #ffffff;
+    --shadow: 0 2px 10px rgba(0,0,0,0.05);
+    --transition: all 0.2s ease;
+    --font-main: 'Poppins', sans-serif;
+}
+*/
+
+/* Green Theme */
+/* :root {
+    --primary: #4caf50;
+    --primary-dark: #2e7d32;
+    --bg-light: #f3fff3;
+    --text-dark: #1a1a1a;
+    --card-bg: #ffffff;
+    --shadow: 0 2px 10px rgba(0,0,0,0.05);
+    --transition: all 0.2s ease;
+    --font-main: 'Poppins', sans-serif;
+} */
+
+/* Dark Theme */
+/* :root {
+    --primary: #ff4081;
+    --primary-dark: #f50057;
+    --bg-light: #121212;
+    --text-dark: #eeeeee;
+    --card-bg: #1e1e1e;
+    --shadow: 0 2px 10px rgba(0,0,0,0.4);
+    --transition: all 0.2s ease;
+    --font-main: 'Poppins', sans-serif;
+} */

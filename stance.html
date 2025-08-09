@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Your View - Argument Mirror</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/theme.css" />
+</head>
+<body>
+<div class="container">
+    <header class="page-header center">
+        <h1>Your View</h1>
+        <p>Share your opinion or stance on the topic of your choice.</p>
+    </header>
+
+    <div class="content-box topic-section">
+        <label for="topic">Topic</label>
+        <input type="text" id="topic" placeholder="Enter the topic or issue" />
+    </div>
+
+    <div class="content-box stance-section">
+        <label for="stanceText">Your Argument</label>
+        <textarea id="stanceText" rows="10" placeholder="Write your opinion or stance here..."></textarea>
+        <div class="word-counter" id="wordCounter">0 words</div>
+    </div>
+
+    <section class="navigation">
+        <a href="index.html" class="btn secondary">Back</a>
+        <button id="nextBtn" class="btn primary">Next</button>
+    </section>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/stance.js"></script>
+
+</body>
+</html>

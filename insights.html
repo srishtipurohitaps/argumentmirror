@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Insights – Argument Mirror</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/theme.css" />
+</head>
+<body>
+<div class="container">
+    <header class="page-header center">
+        <h1>Insight Summary</h1>
+        <p>Analysis of your arguments for tone, balance, and common keywords.</p>
+    </header>
+
+    <div class="content-box insight-section">
+        <h2>Keyword Frequency</h2>
+        <div id="keywordsOriginal" class="insight-box"></div>
+        <div id="keywordsCounter" class="insight-box"></div>
+    </div>
+
+    <div class="content-box insight-section">
+        <h2>Tone Analysis</h2>
+        <div id="toneOriginal" class="insight-box"></div>
+        <div id="toneCounter" class="insight-box"></div>
+    </div>
+
+    <div class="content-box insight-section">
+        <h2>Balance Score</h2>
+        <div id="balanceScore" class="insight-box"></div>
+    </div>
+
+    <div class="content-box insight-section">
+        <h2>Bias Check Meter</h2>
+        <div id="biasCheck" class="insight-box"></div>
+    </div>
+
+    <div class="content-box reflection-section">
+        <label for="reflection">After reading both sides, do you feel differently?</label>
+        <select id="reflection">
+            <option value="">Select</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <textarea id="reflectionNotes" rows="4" placeholder="Optional: Explain your thoughts"></textarea>
+    </div>
+
+    <section class="navigation">
+        <button id="downloadBtn" class="btn primary">Save & Download</button>
+        <a href="stance.html" class="btn secondary">Try Another Topic</a>
+        <a href="index.html" class="btn secondary">Home</a>
+    </section>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/insights.js"></script>
+</body>
+</html>

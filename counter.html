@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Role Reversal - Argument Mirror</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/theme.css" />
+</head>
+<body>
+<div class="container">
+    <header class="page-header center">
+        <h1>Role Reversal</h1>
+        <p>Now, argue from the opposite perspective of your original stance.</p>
+    </header>
+
+    <div class="content-box original-stance">
+        <h2>Your Original Argument</h2>
+        <div id="originalText" class="argument-box"></div>
+    </div>
+
+    <div class="content-box counter-section">
+        <label for="counterText">Counter-Argument</label>
+        <textarea id="counterText" rows="10" placeholder="Write the opposing view here..."></textarea>
+        <div class="word-counter" id="wordCounter">0 words</div>
+    </div>
+
+    <div class="content-box prompt-section">
+        <button id="randomPromptBtn" class="btn secondary small">Get Random Perspective Prompt</button>
+        <div id="promptDisplay" class="prompt-box"></div>
+    </div>
+
+    <section class="navigation">
+        <a href="stance.html" class="btn secondary">Back</a>
+        <button id="nextBtn" class="btn primary">Next</button>
+    </section>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/prompts.js"></script>
+<script src="js/counter.js"></script>
+
+</body>
+</html>

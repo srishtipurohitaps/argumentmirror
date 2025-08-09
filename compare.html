@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Compare Arguments - Argument Mirror</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/theme.css" />
+</head>
+<body>
+<div class="container">
+    <header class="page-header center">
+        <h1>Side-by-Side Comparison</h1>
+        <p>Review your original stance and your counter-argument before moving to the analysis.</p>
+    </header>
+
+    <section class="comparison-grid">
+        <div class="content-box argument-column">
+            <h2>Original Stance</h2>
+            <div id="originalText" class="argument-box"></div>
+        </div>
+        <div class="content-box argument-column">
+            <h2>Counter-Argument</h2>
+            <div id="counterText" class="argument-box"></div>
+        </div>
+    </section>
+
+    <section class="navigation">
+        <button id="refineBtn" class="btn secondary">Refine Original</button>
+        <button id="nextBtn" class="btn primary">Proceed to Insights</button>
+    </section>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/compare.js"></script>
+</body>
+</html>
